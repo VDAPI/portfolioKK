@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PORTFOLIO — Fashion Stylist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <span class="loader-text">portfolio</span>
+</div>
+<script>
+setTimeout(function(){ document.getElementById('loader').classList.add('hidden'); }, 1500);
+</script>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">Portfolio</a>
+  <ul class="nav-links">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-line"></div>
+  <h1 class="hero-title">Karolina<br><em>Korzec</em><br></h1>
+  <p class="hero-subtitle">Fashion Stylist &nbsp;&middot;&nbsp; Editorial</p>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="hero-scroll-line"></div>
+  </div>
+</header>
+
+<section class="project" id="work">
+  <div class="project-header reveal">
+    <div class="section-label">Editorial</div>
+    <div class="project-num">01</div>
+    <h2 class="project-title">Uliczny<br>Kochanek</h2>
+    <p class="project-concept">
+      Zderzenie surowej estetyki miejskiej z drapieżnym glamourem lat 90. 
+      Leopardzi print, łańcuchy i ciężkie futro na tle industrialnego podwórza 
+      i mercedesa — ikony ulicznego luksusu w zimnej, niebieskiej palecie.
+    </p>
+  </div>
+
+  <div class="spread img-reveal" data-lightbox="dark">
+    <div class="spread-left spread-img" data-index="0">
+      <img src="img/dark-full.jpg" alt="Nocturnal Predator — full look editorial">
+    </div>
+    <div class="spread-right spread-right--2x3">
+      <div class="spread-img" data-index="1"><img src="img/dark-stand.jpg" alt="Nocturnal Predator — standing"></div>
+      <div class="spread-img" data-index="2"><img src="img/dark-mid.jpg" alt="Nocturnal Predator — mid shot"></div>
+      <div class="spread-img" data-index="3"><img src="img/dark-away.jpg" alt="Nocturnal Predator — looking away"></div>
+      <div class="spread-img" data-index="4"><img src="img/dark-bts.jpg" alt="Nocturnal Predator — behind the scenes"></div>
+      <div class="spread-quote">
+        <div class="concept-quote-inner">
+          <div class="cs-item-label">Koncepcja</div>
+          <p class="concept-quote-text">
+            &bdquo;Kiedy noc zamienia ulic&#281; w wybieg — leopard staje si&#281; zbroj&#261;,
+            a &#322;a&#324;cuchy bi&#380;uteri&#261; wojowniczki.&rdquo;
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-study reveal">
+    <div class="cs-left">
+      <h3>Drapie&#380;na kobieco&#347;&#263; w miejskiej scenerii</h3>
+      <p>
+        Inspiracj&#261; by&#322; kontrast mi&#281;dzy surowo&#347;ci&#261; poindustrialnych przestrzeni 
+        a zmys&#322;owym, zwierz&#281;cym printem. Stylizacja celowo &#322;&#261;czy 
+        sprzeczno&#347;ci: elegancj&#281; maxi sukni z agresj&#261; metalowych &#322;a&#324;cuch&#243;w, 
+        mi&#281;kko&#347;&#263; futra z twardosci&#261; betonu. Mercedesa W124 u&#380;y&#322;am jako 
+        rekwizytu &#322;&#261;cz&#261;cego klas&#281; z ulic&#261; — vintage luxury w surowym kontek&#347;cie.
+      </p>
+    </div>
+    <div class="cs-right">
+      <div>
+        <div class="cs-item-label">Kluczowe elementy</div>
+        <div class="cs-item-value">Leopardzia maxi suknia z g&#322;&#281;bokim dekoltem &middot; D&#322;ugie futro &middot; Wielowarstwowe &#322;a&#324;cuchy i metalowa bi&#380;uteria &middot; Czarne rajstopy kontrastowe &middot; Choker</div>
+      </div>
+      <div>
+        <div class="cs-item-label">Paleta</div>
+        <div class="cs-item-value">Ch&#322;odne b&#322;&#281;kity &middot; G&#322;&#281;bokie czerni &middot; Ciep&#322;e z&#322;oto leoparda &middot; Metaliczny chrom</div>
+      </div>
+      <div>
+        <div class="cs-item-label">Nastr&#243;j</div>
+        <div class="cs-item-value">Nocny, drapie&#380;ny, pewny siebie — mi&#281;dzy grungy glam a dark femme fatale</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="credits-bar reveal">
+    <div class="credit-item"><span class="credit-role">Stylizacja</span><span class="credit-name">KAROLINA KORZEC</span></div>
+    <div class="credit-item"><span class="credit-role">Photography</span><span class="credit-name">MAJA RONBERG</span></div>
+    <div class="credit-item"><span class="credit-role">Model</span><span class="credit-name">PAENJI</span></div>
+    <div class="credit-item"><span class="credit-role">Location</span><span class="credit-name">Wroc&#322;aw, PL</span></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="project">
+  <div class="project-header reveal">
+    <div class="section-label">Personal Project</div>
+    <div class="project-num">02</div>
+    <h2 class="project-title">Leśna<br> Dama</h2>
+    <p class="project-concept">
+      Organiczna symbioza cia&#322;a i natury. R&#281;cznie dziergany top o fakturze mchu, 
+      oliwkowa satyna i s&#322;oneczniki — stylizacja, kt&#243;ra wyrasta z lasu 
+      zamiast na nim tylko pozowa&#263;.
+    </p>
+  </div>
+
+  <div class="spread img-reveal" data-lightbox="green">
+    <div class="spread-left spread-img" data-index="0">
+      <img src="img/green-tree.jpg" alt="Moss and Bloom — full body at tree">
+    </div>
+    <div class="spread-right spread-right--2x3">
+      <div class="spread-img" data-index="1"><img src="img/green-reach.jpg" alt="Moss and Bloom — reaching toward tree"></div>
+      <div class="spread-img" data-index="2"><img src="img/green-portrait.jpg" alt="Moss and Bloom — portrait with sunflowers"></div>
+      <div class="spread-img spread-wide" data-index="3"><img src="img/green-crouch.jpg" alt="Moss and Bloom — crouching among sunflowers"></div>
+      <div class="spread-quote">
+        <div class="concept-quote-inner">
+          <div class="cs-item-label">Koncepcja</div>
+          <p class="concept-quote-text">
+            &bdquo;Nie ubieramy modelki w las — pozwalamy, by las ubra&#322; j&#261; w siebie.
+            Mech, satyna i s&#322;oneczniki jako jedno cia&#322;o.&rdquo;
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-study reveal">
+    <div class="cs-left">
+      <h3>Ubi&#243;r jako przed&#322;u&#380;enie ekosystemu</h3>
+      <p>
+        Koncepcja odwraca tradycyjn&#261; relacj&#281; modelka-natura. Zamiast 
+        traktowa&#263; las jako t&#322;o, stylizacja wtapia posta&#263; w otoczenie — 
+        dziergany top imituje faktur&#281; mchu, oliwkowa satyna 
+        odbija ziele&#324; li&#347;ci, a s&#322;oneczniki staj&#261; si&#281; naturalnym akcesorium. 
+        Kolczyki z suszonych kwiat&#243;w domykaj&#261; ekosystem.
+      </p>
+    </div>
+    <div class="cs-right">
+      <div>
+        <div class="cs-item-label">Kluczowe elementy</div>
+        <div class="cs-item-value">R&#281;cznie robiony a&#380;urowy top imituj&#261;cy mech &middot; Oliwkowa satynowa sp&#243;dnica midi &middot; Kolczyki z suszonych s&#322;onecznik&#243;w &middot; Bose stopy jako element stylizacji</div>
+      </div>
+      <div>
+        <div class="cs-item-label">Paleta</div>
+        <div class="cs-item-value">G&#322;&#281;boka ziele&#324; le&#347;na &middot; Oliwka &middot; Z&#322;oto s&#322;onecznikowe &middot; Ciep&#322;y bursztyn w&#322;os&#243;w</div>
+      </div>
+      <div>
+        <div class="cs-item-label">Nastr&#243;j</div>
+        <div class="cs-item-value">Eteryczny, organiczny, mitologiczny — nimfa le&#347;na w uj&#281;ciu fashion editorial</div>
+      </div>
+    </div>
+  </div>
+
+ <div class="credits-bar reveal">
+    <div class="credit-item"><span class="credit-role">Stylizacja</span><span class="credit-name">KAROLINA KORZEC</span></div>
+    <div class="credit-item"><span class="credit-role">Photography</span><span class="credit-name">MAJA RONBERG</span></div>
+    <div class="credit-item"><span class="credit-role">Model</span><span class="credit-name">_.natq_</span></div>
+    <div class="credit-item"><span class="credit-role">Location</span><span class="credit-name">Wroc&#322;aw, PL</span></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- PROJECT 03 — TARTANARCHY            -->
+<!-- ═══════════════════════════════════ -->
+<section class="project">
+  <div class="project-header reveal">
+    <div class="section-label">Editorial</div>
+    <div class="project-num">03</div>
+    <h2 class="project-title">Tartan-<br>archy</h2>
+    <p class="project-concept">
+      Punk nie umar&#322; — przezimowa&#322;. Zimowy flash editorial &#322;&#261;cz&#261;cy 
+      warstwy tartanu, sk&#243;rzane uprz&#281;&#380;e i dzieci&#281;cy absurd pluszowego 
+      misia w jedno bezkompromisowe spojrzenie. Vivienne Westwood 
+      spotyka podw&#243;rko za blokiem o drugiej w nocy.
+    </p>
+  </div>
+
+  <div class="spread img-reveal" data-lightbox="punk">
+    <div class="spread-left spread-img" data-index="0">
+      <img src="img/punk-full-front.jpg" alt="Tartanarchy — full look front">
+    </div>
+    <div class="spread-right spread-right--2x3">
+      <div class="spread-img" data-index="1"><img src="img/punk-detail-jewelry.jpg" alt="Tartanarchy — jewelry detail"></div>
+      <div class="spread-img" data-index="2"><img src="img/punk-detail-belts.jpg" alt="Tartanarchy — belts detail"></div>
+      <div class="spread-img" data-index="3"><img src="img/punk-full-bear.jpg" alt="Tartanarchy — full look with bear"></div>
+      <div class="spread-img" data-index="4"><img src="img/BKP_4991.jpeg" alt="Tartanarchy — posing in snow with bear"></div>
+      <div class="spread-quote">
+        <div class="concept-quote-inner">
+          <div class="cs-item-label">Koncepcja</div>
+          <p class="concept-quote-text">
+            &bdquo;Bunt nie musi by&#263; w&#347;ciek&#322;y. Czasem
+            wystarczy pluszowy mi&#347;, trzy warstwy
+            tartanu i agrafka w odpowiednim miejscu.&rdquo;
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-study reveal">
+    <div class="cs-left">
+      <h3>Kontrolowany chaos — punk jako system warstwowania</h3>
+      <p>
+        Stylizacja buduje napi&#281;cie przez zderzenie dw&#243;ch klanowych tartan&#243;w 
+        (&#380;&#243;&#322;to-czarny i czerwono-zielony), spi&#281;tych sk&#243;rzanymi pasami 
+        jak gorsetem. Pasiaste r&#281;kawki i agrafki przywo&#322;uj&#261; londy&#324;ski punk 
+        z King's Road, ale pluszowy mi&#347; i pin "Being Kind Is Punk" 
+        &#322;ami&#261; agresj&#281; ironicznym ciep&#322;em. Flashowe o&#347;wietlenie na tle &#347;niegu 
+        daje surowy, dokumentalny charakter — editorial z energi&#261; backstage'u.
+      </p>
+    </div>
+    <div class="cs-right">
+      <div>
+        <div class="cs-item-label">Kluczowe elementy</div>
+        <div class="cs-item-value">&#379;&#243;&#322;ta krata zipowana na czarnym topie &middot; Czerwona tartanowa sp&#243;dnica midi &middot; Podw&#243;jny sk&#243;rzany pas z oczkami &middot; Pasiaste r&#281;kawki czarno-czerwone &middot; Srebrna bi&#380;uteria statement &middot; Pluszowy mi&#347; jako torebka &middot; Czapka tartan &middot; Glany brogues &middot; Bandana paisley &middot; Piny i agrafki</div>
+      </div>
+      <div>
+        <div class="cs-item-label">Paleta</div>
+        <div class="cs-item-value">&#379;&#243;&#322;&#263; tartanu &middot; Czerwie&#324; Royal Stewart &middot; Czer&#324; sk&#243;ry &middot; Biel &#347;niegu &middot; Akcenty: r&#243;&#380; pinu, z&#322;oto bandany</div>
+      </div>
+      <div>
+        <div class="cs-item-label">Nastr&#243;j</div>
+        <div class="cs-item-value">Buntowniczy ale ciep&#322;y, ironiczny, maksymalistyczny — punk z przymru&#380;eniem oka, nie z pi&#281;&#347;ci&#261;</div>
+      </div>
+    </div>
+  </div>
+
+   <div class="credits-bar reveal">
+    <div class="credit-item"><span class="credit-role">Stylizacja</span><span class="credit-name">KAROLINA KORZEC</span></div>
+    <div class="credit-item"><span class="credit-role">Photography</span><span class="credit-name">BARTOSZ KONIECZKO</span></div>
+    <div class="credit-item"><span class="credit-role">Model</span><span class="credit-name">KAROLINA KORZEC</span></div>
+    <div class="credit-item"><span class="credit-role">Location</span><span class="credit-name">Katowice, PL</span></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════ -->
+<!-- ABOUT                               -->
+<!-- ═══════════════════════════════════ -->
+<section class="about" id="about">
+  <div class="about-tagline reveal">
+    Stylizuj&#281; nastr&#243;j,<br>nie tylko ubrania.
+  </div>
+  <div class="about-text">
+    <div class="section-label reveal">O mnie</div>
+    <p class="reveal reveal-delay-1">
+      Jestem początkującą stylistk&#261; modow&#261; z Katowic, specjalizuj&#261;c&#261; si&#281; 
+      w editorialach i projektach koncepcyjnych. Moja praca &#322;&#261;czy 
+      kontrastowe estetyki — miejski edge z organiczn&#261; delikatno&#347;ci&#261;, 
+      agresj&#281; z poetycko&#347;ci&#261;.
+    </p>
+    <p class="reveal reveal-delay-2">
+      Wierz&#281;, &#380;e najlepsza stylizacja to ta, kt&#243;ra opowiada histori&#281; 
+      zanim ktokolwiek zapyta o mark&#281;. Ka&#380;dy projekt zaczynam od 
+      emocji i narracji, dopiero potem dobieram tkaniny, tekstury 
+      i proporcje.
+    </p>
+    <p class="reveal reveal-delay-3">
+      Wsp&#243;&#322;pracuj&#281; z fotografami i projektantami, 
+      kt&#243;rzy — tak jak ja — traktuj&#261; mod&#281; jako medium artystyczne, 
+      nie katalog produkt&#243;w.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <span>&copy; 2026</span>
+  <span>Katowice, Poland</span>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Zamknij">&times;</button>
+  <button class="lightbox-arrow lightbox-prev" aria-label="Poprzednie">&#8249;</button>
+  <button class="lightbox-arrow lightbox-next" aria-label="Następne">&#8250;</button>
+  <div class="lightbox-img-wrap">
+    <img src="" alt="" id="lightbox-img">
+  </div>
+  <div class="lightbox-counter" id="lightbox-counter"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
