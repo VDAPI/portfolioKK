@@ -126,7 +126,7 @@ nav.scrolled { padding: 1rem 3rem; }
 
 /* ═══════════ HERO ═══════════ */
 .hero {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
